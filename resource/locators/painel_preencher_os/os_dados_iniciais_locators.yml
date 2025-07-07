@@ -1,17 +1,17 @@
 os_dados_iniciais:
   dropdown_selecionar_cliente_vistoria: //ComboBox[@AutomationId='comboBoxCliente']
-  dropdown_opcao_particular: //ListItem[@Name='PARTICULAR']
+  dropdown_opcao_cliente: //ListItem[@Name='PARTICULAR']
   dropdown_selecionar_forma_pagamento: //ComboBox[@AutomationId='comboBoxFormaPagamento']
   dropdown_opcao_a_vista: //ListItem[@Name='À VISTA']
-  dropdown_uf: //ComboBox[@AutomationId='comboboxUFBA']
-  dropdown_opcao_bahia: //ListItem[@Name='BA']
-  selecionar_servico_ba: //CheckBox[@Name='TRANSFERENCIA DE PROPRIEDADE']
+  # dropdown_uf: //ComboBox[@AutomationId='comboboxUFBA']
+  # dropdown_opcao_paraiba: //ListItem[@Name='PB']
+  # selecionar_servico_ba: //CheckBox[@Name='TRANSFERENCIA DE PROPRIEDADE']
   botao_salvar_informacoes_iniciais: //Button[@AutomationId='btnSalvarInfoOS']
   popup_historico_os: //Text[@Name='Histórico de Ordem de Serviço']
   popup_botao_sim: //Button[@AutomationId='btnSim']
-
-  
-
-  
-
-  
+  campo_renavam: //Edit[@AutomationId='txtRenavam']
+  # dropdown_vistoriador: //ComboBox[@AutomationId='comboBoxVistoriador']
+  # dropdown_opcao_vistoriador: //ListItem[@Name='GABRIEL PEREIRA ALVES']
+  dropdown_caixa: //ComboBox[@AutomationId='comboBoxCaixa']
+  dropdown_opcao_caixa: //ListItem[@Name='teste']
+  botao_erro: //Button[@Name='OK']

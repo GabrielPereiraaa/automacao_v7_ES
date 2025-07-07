@@ -24,15 +24,15 @@ Preencher dados complementares
     # 3. Preenche os dados complementares.
     Set Text To Textbox    ${os_dados_complementares.kilometragem}    0   # Kilometragem
 
-    # 4. Seleciona Para quem a nota fiscal será emitida.
-    Click    ${os_dados_complementares.dropdown_selecionar_destino_nota_fiscal}
-    Wait Until Element Exist    ${os_dados_complementares.dropdown_opcao_ordem_servico}    retries=${TIMEOUT}
-    Click    ${os_dados_complementares.dropdown_opcao_ordem_servico}
+    # # 4. Seleciona Para quem a nota fiscal será emitida.
+    # Click    ${os_dados_complementares.dropdown_selecionar_destino_nota_fiscal}        ---Desnecessario em ES
+    # Wait Until Element Exist    ${os_dados_complementares.dropdown_opcao_ordem_servico}    retries=${TIMEOUT}
+    # Click    ${os_dados_complementares.dropdown_opcao_ordem_servico}
 
-    # 5. Troca de placa.
-    Click    ${os_dados_complementares.dropdown_troca_placa}
-    Wait Until Element Exist    ${os_dados_complementares.dropdown_opcao_nao}    retries=${TIMEOUT}
-    Click    ${os_dados_complementares.dropdown_opcao_nao}
+    # # 5. Troca de placa.
+    # Click    ${os_dados_complementares.dropdown_troca_placa}        ---Desnecessario em ES
+    # Wait Until Element Exist    ${os_dados_complementares.dropdown_opcao_nao}    retries=${TIMEOUT}
+    # Click    ${os_dados_complementares.dropdown_opcao_nao}
 
     # 5. Salvar os dados complementares.
     Salvar OS e Confirmar Sucesso

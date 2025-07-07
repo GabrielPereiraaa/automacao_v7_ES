@@ -2,3 +2,4 @@ os_informacoes_veiculo:
     aba_veiculo: //TabItem[@Name='Informações do Veículo']
     campo_motor: //Edit[@AutomationId='txtMotorVeiculo'] 
     campo_chassi: //Edit[@AutomationId='txtChassiVeiculo']
+    campo_passageiro: //Edit[@AutomationId='txtCapacidadePassageiroColetada'] 

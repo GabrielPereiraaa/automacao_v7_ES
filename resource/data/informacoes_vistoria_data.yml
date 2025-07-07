@@ -1,25 +1,36 @@
 informacoes_vistoria:
   informacoes_veiculo:
-    placa: PJB0D49
-    renavam: "01041130730"
-    chassi: 9C2KD0550ER350693
-    motor: KD05E5E350693
+    placa: ESE5E55
+    renavam: "1319758018"
+    chassi: CHASSIESE5E55
+    motor: MOTORESE5E5
 
   proprietario:
     tipo_pessoa: FISICA
-    cpf: 14945798800
+    cpf: 41723418000104
     rg: 344912693
-    nome_ou_razao_social: João da Silva
+    nome_ou_razao_social: PROPRIETÁRIO PJ - ESE5E55
     dd: 11
     telefone: 911111111
     cep: 46690970
     endereco: Rua Exemplo
     endereco_numero: 456
+  
+  interessado:
+   nome: fulano de tal
 
-CPF_SEQUENCE:
+CNPJ_SEQUENCE:
   - "s'CTRL+A'"
-  - "t'14945798800'"
+  - "t'41723418000104'"
 
 CEP_SEQUENCE:
   - "s'CTRL+A'"
   - "t'46690970'"
+
+CPF_SEQUENCE:
+  - "s'CTRL+A'"
+  - "t'87196491009'"
+
+NUM_SEQUENCE:
+  - "s'CTRL+A'"
+  - "t'11985468524'"

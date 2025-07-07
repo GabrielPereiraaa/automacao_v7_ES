@@ -13,13 +13,25 @@ Cenário de teste 1: Fazer login com sucesso
 
 Cenário 02: Abir uma Os
     [Documentation]    Este teste verifica a abertura de uma Ordem de Serviço (OS) após o login.
-    [Tags]             ordem_de_servico
+    [Tags]             abrir_os
     Abrir uma Os
     Verificar se a OS foi aberta com sucesso
 
 Cenário 03: Preencher dados da Os
     [Documentation]    Este teste verifica o preenchimento dos dados de uma Ordem de Serviço (OS).
-    [Tags]             preenchimento_os
+    [Tags]             preencher_os
+    Preencher dados iniciais da Os
+    Preencher dados do proprietário
+    Preencher informações do veículo
+    Preencher dados complementares
+
+Cenário 04: Caminho Feliz
+    [Documentation]    Este teste verifica o caminho feliz de uma Ordem de Serviço (OS) após o preenchimento dos dados.
+    [Tags]             caminho_feliz
+    Fazer Login
+    Verificar se o Login foi bem-sucedido
+    Abrir uma Os
+    Verificar se a OS foi aberta com sucesso
     Preencher dados iniciais da Os
     Preencher dados do proprietário
     Preencher informações do veículo
