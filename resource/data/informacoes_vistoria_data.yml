@@ -1,0 +1,25 @@
+informacoes_vistoria:
+  informacoes_veiculo:
+    placa: PJB0D49
+    renavam: "01041130730"
+    chassi: 9C2KD0550ER350693
+    motor: KD05E5E350693
+
+  proprietario:
+    tipo_pessoa: FISICA
+    cpf: 14945798800
+    rg: 344912693
+    nome_ou_razao_social: João da Silva
+    dd: 11
+    telefone: 911111111
+    cep: 46690970
+    endereco: Rua Exemplo
+    endereco_numero: 456
+
+CPF_SEQUENCE:
+  - "s'CTRL+A'"
+  - "t'14945798800'"
+
+CEP_SEQUENCE:
+  - "s'CTRL+A'"
+  - "t'46690970'"

@@ -1,0 +1,4 @@
+painel_principal:
+  botao_fila_ordem_servico_laudo: //Button[@AutomationId='btnFilaOrdemServicoLaudo']
+  botao_abrir_ordem_servico: //Button[@AutomationId='btnAbrirOrdemServico']
+  botao_atualizar_filas: //Button[@AutomationId='btnAtualizarFilas']

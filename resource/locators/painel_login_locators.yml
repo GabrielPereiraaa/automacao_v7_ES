@@ -1,0 +1,5 @@
+painel_user:
+  campo_usuario_login: //Edit[@AutomationId='txtLogin']
+  campo_senha_login: //Edit[@AutomationId='txtSenha']
+  botao_login: //Button[@AutomationId='btnLogin']
+

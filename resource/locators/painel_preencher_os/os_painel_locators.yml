@@ -1,0 +1,7 @@
+os_painel:
+  botao_finalizar_os: //Button[@AutomationId='btnFinalizarOS']
+  popup_sucesso_texto: //Text[@Name='Laudo salvo com sucesso'] 
+  popup_sucesso_botao_ok: //Button[@Name='OK']
+  botao_integrar_laudo: //Button[@AutomationId='btnIntegrarLaudo']
+  popup_integracao_texto: //Text[@Name='Confirmação dos dados para integração']
+  popup_integracao_botao_sim: //Button[@AutomationId='btnSim']

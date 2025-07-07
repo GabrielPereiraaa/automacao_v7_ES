@@ -1,0 +1,11 @@
+os_dados_complementares:
+    aba_dados_complementares: //TabItem[@Name='Dados Complementares']
+    dropdown_selecionar_estado: //ComboBox[@AutomationId='comboBoxUFTransferencia']
+    dropdown_opcao_bahia: //ListItem[@Name='BA']
+    dropdown_selecionar_municipio: //ComboBox[@AutomationId='comboBoxMunicipioTransferencia']
+    dropdown_opcao_municipio: //ListItem[@Name='ALAGOINHAS']
+    kilometragem: //Edit[@AutomationId='txtKilometragem']
+    dropdown_selecionar_destino_nota_fiscal: //ComboBox[@AutomationId='comboTomadorNotaFiscal']
+    dropdown_opcao_ordem_servico: //ListItem[@Name='Cliente (Aba Ordem de Serviço)']
+    dropdown_troca_placa: //ComboBox[@AutomationId='ddlServicoPlaca']
+    dropdown_opcao_nao: //ListItem[@Name='NAO PRECISA DE PLACA OU LACRE']
